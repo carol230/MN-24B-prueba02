@@ -142,6 +142,8 @@ def descomposicion_LU(A: np.ndarray) -> tuple[np.ndarray, np.ndarray]:
     return L, A
 
 
+
+
 # ####################################################################
 def resolver_LU(L: np.ndarray, U: np.ndarray, b: np.ndarray) -> np.ndarray:
     """Resuelve un sistema de ecuaciones lineales mediante la descomposición LU.
